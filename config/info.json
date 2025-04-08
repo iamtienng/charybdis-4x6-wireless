@@ -62,9 +62,9 @@
         { "label":    "ENT", "row": 4, "col":  7, "x":     9, "y":  5.235 },
         { "label":    "RSE", "row": 4, "col":  8, "x":    10, "y":   5.11 },
 
-        { "label":    "LWR", "row": 5, "col":  4, "x":     4, "y":   6.13 },
-        { "label":    "SPC", "row": 5, "col":  5, "x":     5, "y":    6.1 },
-        { "label":    "ENT", "row": 5, "col":  7, "x":     9, "y":    6.1 }
+        { "label":    "LWR", "row": 5, "col":  4, "x":     4, "y":   6.11 },
+        { "label":    "SPC", "row": 5, "col":  5, "x":     5, "y":  6.235 },
+        { "label":    "ENT", "row": 5, "col":  7, "x":     9, "y":  6.235 }
       ]
     }
   },
