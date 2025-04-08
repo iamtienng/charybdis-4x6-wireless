@@ -111,6 +111,7 @@
               &kp TAB  &u_mt LEFT_GUI A  &u_mt LEFT_ALT S  &u_mt LCTRL D  &u_mt LEFT_SHIFT F  &kp G    &kp H  &u_mt LEFT_SHIFT J  &u_mt RCTRL K  &u_mt RIGHT_ALT L  &u_mt RIGHT_GUI SEMI  &kp APOS
               &mo 5    &kp Z             &kp X             &kp C          &kp V               &kp B    &kp N  &kp M               &kp COMMA      &kp DOT            &kp FSLH              &mo 5
                                                           &kp LGUI       &kp SPACE           &mo 1    &mo 2  &kp RET
+                                                                 &kp SPACE           &mo 1    &mo 2  
             >;
         };
 
@@ -121,6 +122,7 @@
               &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans    &kp N4           &u_mt RIGHT_SHIFT N5  &u_mt RCTRL N6  &trans  &trans    &kp F10
               &trans  &trans    &trans    &trans     &trans  &trans    &kp N1           &kp N2                &kp N3          &trans  &trans    &kp F20
                                           &trans     &trans  &trans    &lt 3 BACKSPACE  &kp LSHFT
+                                               &trans  &trans    &lt 3 BACKSPACE 
             >;
         };
 
@@ -131,6 +133,7 @@
               &trans      &trans        &bt BT_PRV   &bt BT_NXT  &trans    &trans       &kp UNDER  &u_mt RIGHT_SHIFT EQUAL  &u_mt RCTRL LBKT  &u_mt RIGHT_ALT RBKT  &u_mt RIGHT_GUI BSLH  &kp GRAVE
               &trans      &out OUT_TOG  &bootloader  &trans      &trans    &trans       &kp MINUS  &kp PLUS                 &kp LBRC          &kp RBRC              &kp PIPE              &kp TILDE
                                                     &trans      &trans    &mo 3        &trans     &trans
+                                                    &trans    &mo 3        &trans
             >;
         };
 
@@ -141,6 +144,7 @@
               &trans  &kp DEL  &kp F5  &kp F6   &kp F7   &kp F8     &out OUT_TOG  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &kp LALT
               &trans  &trans   &kp F9  &kp F10  &kp F11  &kp F12    &trans        &trans            &trans             &trans           &trans        &to 0
                                       &trans   &trans   &trans     &trans        &trans
+                                      &trans   &trans     &trans
             >;
         };
 
@@ -151,6 +155,7 @@
               &trans  &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
               &trans  &trans  &trans  &trans     &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
                                       &mkp LCLK  &trans  &mkp RCLK    &trans  &trans
+                                      &trans  &mkp RCLK    &trans
             >;
         };
 
@@ -161,6 +166,7 @@
               &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
               &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                       &trans  &trans  &trans    &trans  &trans
+                                      &trans  &trans    &trans
             >;
         };
     };
