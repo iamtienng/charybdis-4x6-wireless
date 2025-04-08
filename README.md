@@ -1,1 +1,1 @@
-# charybdis-4x6-wireless
+# Charybdis Shadow 4x6 by Tim
