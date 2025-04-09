@@ -14,7 +14,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: charybdis_shadow_left
+    shield: charybdis_left
   - board: nice_nano_v2
-    shield: charybdis_shadow_right
-
+    shield: charybdis_right
