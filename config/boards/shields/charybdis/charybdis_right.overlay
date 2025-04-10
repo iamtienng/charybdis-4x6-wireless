@@ -1,4 +1,6 @@
 #include "charybdis.dtsi"
+#include <input/processors.dtsi>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 &default_transform {
 	col-offset = <6>;
@@ -34,8 +36,6 @@
     };
 };
 
-#include <zephyr/dt-bindings/input/input-event-codes.h>
-
 &spi0 {
     status = "okay";
     compatible = "nordic,nrf-spim";
@@ -66,5 +66,11 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
+
+    input-processors = <&zip_xy_scaler 3 2>;
+    scroller {
+        layers = <5>;
+        input-processors = <&zip_xy_to_scroll_mapper>;
+    };
   };
 };
